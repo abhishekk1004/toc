@@ -218,7 +218,7 @@ ax3.legend(handles=legend_handles, facecolor=C['bg'], edgecolor=C['grid'],
            labelcolor=C['text'], fontsize=8)
 
 
-# ── Panel 4: Distance matrix heatmap ─────────────────────────────────────────
+
 ax4 = fig.add_subplot(2, 3, 4)
 style_ax(ax4)
 
