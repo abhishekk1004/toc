@@ -182,7 +182,7 @@ draw_route_map(ax2, nn_route, C['nn'],
                f'Nearest-Neighbour Heuristic\nTotal: {nn_dist:.1f} km')
 
 
-# ── Panel 3: All 24 routes — bar + dot chart ──────────────────────────────────
+# bar + dot chart 
 ax3 = fig.add_subplot(2, 3, 3)
 style_ax(ax3)
 
