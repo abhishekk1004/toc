@@ -176,7 +176,7 @@ draw_route_map(ax1, bf_route, C['optimal'],
                f'Optimal Route (Brute-Force)\nTotal: {bf_dist:.1f} km')
 
 
-# ── Panel 2: Nearest-neighbour route map ──────────────────────────────────────
+# Nearest-neighbour route map 
 ax2 = fig.add_subplot(2, 3, 2)
 draw_route_map(ax2, nn_route, C['nn'],
                f'Nearest-Neighbour Heuristic\nTotal: {nn_dist:.1f} km')
