@@ -170,7 +170,7 @@ fig.suptitle('Travelling Salesman Problem — Nepal Cities',
              fontsize=20, fontweight='bold', color='white', y=0.97)
 
 
-# ── Panel 1: Optimal route map ────────────────────────────────────────────────
+# Optimal route map 
 ax1 = fig.add_subplot(2, 3, 1)
 draw_route_map(ax1, bf_route, C['optimal'],
                f'Optimal Route (Brute-Force)\nTotal: {bf_dist:.1f} km')
