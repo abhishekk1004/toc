@@ -164,7 +164,7 @@ def cumulative_distances(route):
     return cum
 
 
-# ── Create figure ─────────────────────────────────────────────────────────────
+
 fig = plt.figure(figsize=(18, 14), facecolor=C['bg'])
 fig.suptitle('Travelling Salesman Problem — Nepal Cities',
              fontsize=20, fontweight='bold', color='white', y=0.97)
